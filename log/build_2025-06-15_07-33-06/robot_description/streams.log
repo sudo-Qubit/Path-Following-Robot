@@ -1,0 +1,39 @@
+[1.192s] Invoking command in '/home/the/simulation_ws/src/robot_description': PYTHONPATH=/home/the/simulation_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/the/simulation_ws/build/robot_description/build install --record /home/the/simulation_ws/build/robot_description/install.log --single-version-externally-managed install_data
+[1.372s] /home/the/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.372s]   warnings.warn(msg)
+[1.487s] running egg_info
+[1.506s] creating ../../build/robot_description/robot_description.egg-info
+[1.506s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[1.507s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[1.507s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[1.508s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[1.508s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.549s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.550s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.551s] running build
+[1.551s] running build_py
+[1.552s] creating /home/the/simulation_ws/build/robot_description/build/lib/robot_description
+[1.554s] copying robot_description/__init__.py -> /home/the/simulation_ws/build/robot_description/build/lib/robot_description
+[1.554s] running install
+[1.559s] running install_lib
+[1.579s] creating /home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[1.579s] copying /home/the/simulation_ws/build/robot_description/build/lib/robot_description/__init__.py -> /home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages/robot_description
+[1.580s] byte-compiling /home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[1.580s] running install_data
+[1.581s] creating /home/the/simulation_ws/install/robot_description/share/ament_index/resource_index/packages
+[1.582s] copying resource/robot_description -> /home/the/simulation_ws/install/robot_description/share/ament_index/resource_index/packages
+[1.583s] copying package.xml -> /home/the/simulation_ws/install/robot_description/share/robot_description
+[1.583s] creating /home/the/simulation_ws/install/robot_description/share/robot_description/launch
+[1.583s] copying launch/spawn.launch.py -> /home/the/simulation_ws/install/robot_description/share/robot_description/launch
+[1.584s] copying launch/rviz2.launch.py -> /home/the/simulation_ws/install/robot_description/share/robot_description/launch
+[1.584s] copying launch/empty_world.launch.py -> /home/the/simulation_ws/install/robot_description/share/robot_description/launch
+[1.584s] creating /home/the/simulation_ws/install/robot_description/share/robot_description/urdf
+[1.585s] copying urdf/robot.urdf -> /home/the/simulation_ws/install/robot_description/share/robot_description/urdf
+[1.585s] creating /home/the/simulation_ws/install/robot_description/share/robot_description/rviz
+[1.586s] copying rviz/config.rviz -> /home/the/simulation_ws/install/robot_description/share/robot_description/rviz
+[1.587s] creating /home/the/simulation_ws/install/robot_description/share/robot_description/meshes
+[1.587s] running install_egg_info
+[1.607s] Copying ../../build/robot_description/robot_description.egg-info to /home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[1.609s] running install_scripts
+[1.768s] writing list of installed files to '/home/the/simulation_ws/build/robot_description/install.log'
+[1.817s] Invoked command in '/home/the/simulation_ws/src/robot_description' returned '0': PYTHONPATH=/home/the/simulation_ws/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/the/simulation_ws/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/the/simulation_ws/build/robot_description/build install --record /home/the/simulation_ws/build/robot_description/install.log --single-version-externally-managed install_data

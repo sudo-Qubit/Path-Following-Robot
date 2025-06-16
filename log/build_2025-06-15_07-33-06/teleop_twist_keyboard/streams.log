@@ -1,0 +1,32 @@
+[1.177s] Invoking command in '/home/the/simulation_ws/src/teleop_twist_keyboard': PYTHONPATH=/home/the/simulation_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/the/simulation_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/the/simulation_ws/build/teleop_twist_keyboard/build install --record /home/the/simulation_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
+[1.357s] /home/the/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[1.357s]   warnings.warn(msg)
+[1.473s] running egg_info
+[1.493s] creating ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info
+[1.494s] writing ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/PKG-INFO
+[1.494s] writing dependency_links to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/dependency_links.txt
+[1.494s] writing entry points to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/entry_points.txt
+[1.495s] writing requirements to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/requires.txt
+[1.495s] writing top-level names to ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/top_level.txt
+[1.495s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.537s] reading manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.538s] adding license file 'LICENSE'
+[1.538s] writing manifest file '../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info/SOURCES.txt'
+[1.539s] running build
+[1.539s] running build_py
+[1.539s] creating /home/the/simulation_ws/build/teleop_twist_keyboard/build/lib
+[1.540s] copying teleop_twist_keyboard.py -> /home/the/simulation_ws/build/teleop_twist_keyboard/build/lib
+[1.540s] running install
+[1.544s] running install_lib
+[1.563s] copying /home/the/simulation_ws/build/teleop_twist_keyboard/build/lib/teleop_twist_keyboard.py -> /home/the/simulation_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages
+[1.564s] byte-compiling /home/the/simulation_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard.py to teleop_twist_keyboard.cpython-310.pyc
+[1.565s] running install_data
+[1.566s] creating /home/the/simulation_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.567s] copying resource/teleop_twist_keyboard -> /home/the/simulation_ws/install/teleop_twist_keyboard/share/ament_index/resource_index/packages
+[1.567s] copying package.xml -> /home/the/simulation_ws/install/teleop_twist_keyboard/share/teleop_twist_keyboard
+[1.567s] running install_egg_info
+[1.588s] Copying ../../build/teleop_twist_keyboard/teleop_twist_keyboard.egg-info to /home/the/simulation_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages/teleop_twist_keyboard-2.4.0-py3.10.egg-info
+[1.589s] running install_scripts
+[1.750s] Installing teleop_twist_keyboard script to /home/the/simulation_ws/install/teleop_twist_keyboard/lib/teleop_twist_keyboard
+[1.750s] writing list of installed files to '/home/the/simulation_ws/build/teleop_twist_keyboard/install.log'
+[1.784s] Invoked command in '/home/the/simulation_ws/src/teleop_twist_keyboard' returned '0': PYTHONPATH=/home/the/simulation_ws/build/teleop_twist_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/the/simulation_ws/install/teleop_twist_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/teleop_twist_keyboard build --build-base /home/the/simulation_ws/build/teleop_twist_keyboard/build install --record /home/the/simulation_ws/build/teleop_twist_keyboard/install.log --single-version-externally-managed install_data
