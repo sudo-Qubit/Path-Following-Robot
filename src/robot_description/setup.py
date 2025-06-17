@@ -25,6 +25,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'display_scan = robot_description.lidar_distance:main',
         ],
     },
 )

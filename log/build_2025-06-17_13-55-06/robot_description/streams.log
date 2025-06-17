@@ -1,0 +1,45 @@
+[1.424s] Invoking command in '/home/mazino/Path-Following-Robot/src/robot_description': PYTHONPATH=/home/mazino/Path-Following-Robot/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/mazino/Path-Following-Robot/build/robot_description/build install --record /home/mazino/Path-Following-Robot/build/robot_description/install.log --single-version-externally-managed install_data
+[1.938s] running egg_info
+[1.939s] creating ../../build/robot_description/robot_description.egg-info
+[1.940s] writing ../../build/robot_description/robot_description.egg-info/PKG-INFO
+[1.942s] writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt
+[1.943s] writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt
+[1.944s] writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt
+[1.944s] writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt
+[1.946s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.950s] reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.955s] writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'
+[1.972s] running build
+[1.972s] running build_py
+[1.972s] creating /home/mazino/Path-Following-Robot/build/robot_description/build
+[1.974s] creating /home/mazino/Path-Following-Robot/build/robot_description/build/lib
+[1.976s] creating /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description
+[1.976s] copying robot_description/lidar_distance.py -> /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description
+[1.981s] copying robot_description/__init__.py -> /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description
+[1.983s] running install
+[1.983s] running install_lib
+[1.984s] creating /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description
+[1.984s] copying /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description/lidar_distance.py -> /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description
+[1.984s] copying /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description/__init__.py -> /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description
+[1.984s] byte-compiling /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/lidar_distance.py to lidar_distance.cpython-310.pyc
+[1.984s] byte-compiling /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py to __init__.cpython-310.pyc
+[1.984s] running install_data
+[1.984s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/ament_index
+[1.984s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/ament_index/resource_index
+[1.984s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/ament_index/resource_index/packages
+[1.984s] copying resource/robot_description -> /home/mazino/Path-Following-Robot/install/robot_description/share/ament_index/resource_index/packages
+[1.984s] copying package.xml -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description
+[1.984s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/launch
+[1.984s] copying launch/spawn.launch.py -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/launch
+[1.984s] copying launch/rviz2.launch.py -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/launch
+[1.985s] copying launch/empty_world.launch.py -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/launch
+[1.985s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/urdf
+[1.985s] copying urdf/robot.urdf -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/urdf
+[1.985s] creating /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/rviz
+[1.985s] copying rviz/config.rviz -> /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/rviz
+[1.985s] running install_egg_info
+[1.985s] Copying ../../build/robot_description/robot_description.egg-info to /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info
+[1.986s] running install_scripts
+[2.023s] Installing display_scan script to /home/mazino/Path-Following-Robot/install/robot_description/lib/robot_description
+[2.023s] writing list of installed files to '/home/mazino/Path-Following-Robot/build/robot_description/install.log'
+[2.084s] Invoked command in '/home/mazino/Path-Following-Robot/src/robot_description' returned '0': PYTHONPATH=/home/mazino/Path-Following-Robot/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description build --build-base /home/mazino/Path-Following-Robot/build/robot_description/build install --record /home/mazino/Path-Following-Robot/build/robot_description/install.log --single-version-externally-managed install_data

@@ -1,4 +1,6 @@
+/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/lidar_distance.py
 /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/__init__.py
+/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/__pycache__/lidar_distance.cpython-310.pyc
 /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/__pycache__/__init__.cpython-310.pyc
 /home/mazino/Path-Following-Robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
 /home/mazino/Path-Following-Robot/install/robot_description/share/robot_description/package.xml
@@ -14,3 +16,4 @@
 /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info/top_level.txt
 /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info/requires.txt
+/home/mazino/Path-Following-Robot/install/robot_description/lib/robot_description/display_scan

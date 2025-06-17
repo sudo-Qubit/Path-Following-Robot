@@ -1,3 +1,3 @@
 [console_scripts]
-
+display_scan = robot_description.lidar_distance:main
 

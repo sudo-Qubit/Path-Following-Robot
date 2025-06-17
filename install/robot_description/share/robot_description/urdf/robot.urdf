@@ -262,7 +262,7 @@
         </plugin>
     </gazebo>
 
-    <!-- Laser scan (Lidan) Plugin-->
+    <!-- Laser scan (Lidar) Plugin-->
     <gazebo reference="joint_laser_scan_chassis">
         <preserveFixedJoint>true</preserveFixedJoint>
     </gazebo>
