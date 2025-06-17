@@ -1,0 +1,54 @@
+[0.000000] (-) TimerEvent: {}
+[0.008388] (-) JobUnselected: {'identifier': 'teleop_twist_keyboard'}
+[0.010789] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.010847] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.099500] (-) TimerEvent: {}
+[0.206504] (-) TimerEvent: {}
+[0.308166] (-) TimerEvent: {}
+[0.417860] (-) TimerEvent: {}
+[0.519230] (-) TimerEvent: {}
+[0.623469] (-) TimerEvent: {}
+[0.726768] (-) TimerEvent: {}
+[0.831529] (-) TimerEvent: {}
+[0.934423] (-) TimerEvent: {}
+[1.053641] (-) TimerEvent: {}
+[1.154754] (-) TimerEvent: {}
+[1.269331] (-) TimerEvent: {}
+[1.370321] (-) TimerEvent: {}
+[1.418656] (robot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/robot_description', 'build', '--build-base', '/home/mazino/Path-Following-Robot/build/robot_description/build', 'install', '--record', '/home/mazino/Path-Following-Robot/build/robot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mazino/Path-Following-Robot/src/robot_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'mazino', 'LC_TIME': 'fr_FR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mazino', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'fr_FR.UTF-8', 'SYSTEMD_EXEC_PID': '4259', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mazino', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mazino', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/None:@/tmp/.ICE-unix/1747,unix/None:/tmp/.ICE-unix/1747', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'fr_FR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6bde25e2_b93f_4798_885b_782edfca74f0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'fr_FR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OXSR82', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.116', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'fr_FR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'fr_FR.UTF-8', 'LC_IDENTIFICATION': 'fr_FR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mazino/Path-Following-Robot/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mazino/Path-Following-Robot/build/robot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'fr_FR.UTF-8', 'LC_PAPER': 'fr_FR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.472398] (-) TimerEvent: {}
+[1.573600] (-) TimerEvent: {}
+[1.685483] (-) TimerEvent: {}
+[1.787816] (-) TimerEvent: {}
+[1.895729] (-) TimerEvent: {}
+[2.006487] (-) TimerEvent: {}
+[2.014627] (robot_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.016208] (robot_description) StdoutLine: {'line': b'writing ../../build/robot_description/robot_description.egg-info/PKG-INFO\n'}
+[2.017844] (robot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/robot_description/robot_description.egg-info/dependency_links.txt\n'}
+[2.018976] (robot_description) StdoutLine: {'line': b'writing entry points to ../../build/robot_description/robot_description.egg-info/entry_points.txt\n'}
+[2.019771] (robot_description) StdoutLine: {'line': b'writing requirements to ../../build/robot_description/robot_description.egg-info/requires.txt\n'}
+[2.020292] (robot_description) StdoutLine: {'line': b'writing top-level names to ../../build/robot_description/robot_description.egg-info/top_level.txt\n'}
+[2.030097] (robot_description) StdoutLine: {'line': b"reading manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[2.030472] (robot_description) StdoutLine: {'line': b"writing manifest file '../../build/robot_description/robot_description.egg-info/SOURCES.txt'\n"}
+[2.031329] (robot_description) StdoutLine: {'line': b'running build\n'}
+[2.031594] (robot_description) StdoutLine: {'line': b'running build_py\n'}
+[2.031900] (robot_description) StdoutLine: {'line': b'copying robot_description/lidar_distance.py -> /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description\n'}
+[2.032003] (robot_description) StdoutLine: {'line': b'copying robot_description/odom_readings.py -> /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description\n'}
+[2.032078] (robot_description) StdoutLine: {'line': b'running install\n'}
+[2.035962] (robot_description) StdoutLine: {'line': b'running install_lib\n'}
+[2.036777] (robot_description) StdoutLine: {'line': b'copying /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description/lidar_distance.py -> /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description\n'}
+[2.037014] (robot_description) StdoutLine: {'line': b'copying /home/mazino/Path-Following-Robot/build/robot_description/build/lib/robot_description/odom_readings.py -> /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description\n'}
+[2.038181] (robot_description) StdoutLine: {'line': b'byte-compiling /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/lidar_distance.py to lidar_distance.cpython-310.pyc\n'}
+[2.040764] (robot_description) StdoutLine: {'line': b'byte-compiling /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description/odom_readings.py to odom_readings.cpython-310.pyc\n'}
+[2.041270] (robot_description) StdoutLine: {'line': b'running install_data\n'}
+[2.042536] (robot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.043158] (robot_description) StdoutLine: {'line': b"removing '/home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.048666] (robot_description) StdoutLine: {'line': b'Copying ../../build/robot_description/robot_description.egg-info to /home/mazino/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info\n'}
+[2.049856] (robot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[2.091837] (robot_description) StdoutLine: {'line': b'Installing display_odom script to /home/mazino/Path-Following-Robot/install/robot_description/lib/robot_description\n'}
+[2.092103] (robot_description) StdoutLine: {'line': b'Installing display_scan script to /home/mazino/Path-Following-Robot/install/robot_description/lib/robot_description\n'}
+[2.093008] (robot_description) StdoutLine: {'line': b"writing list of installed files to '/home/mazino/Path-Following-Robot/build/robot_description/install.log'\n"}
+[2.107041] (-) TimerEvent: {}
+[2.141389] (robot_description) CommandEnded: {'returncode': 0}
+[2.201230] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[2.202794] (-) EventReactorShutdown: {}

@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'display_scan = robot_description.lidar_distance:main',
+            'display_odom = robot_description.odom_readings:main',
         ],
     },
 )

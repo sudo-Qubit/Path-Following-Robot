@@ -14,6 +14,7 @@ launch/spawn.launch.py
 resource/robot_description
 robot_description/__init__.py
 robot_description/lidar_distance.py
+robot_description/odom_readings.py
 rviz/config.rviz
 test/test_copyright.py
 test/test_flake8.py
