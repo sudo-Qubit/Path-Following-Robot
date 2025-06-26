@@ -9,7 +9,8 @@
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/launch/empty_world.launch.py
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/launch/spawn.launch.py
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/launch/rviz2.launch.py
-/home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/urdf/robot.urdf
+/home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/urdf/robot.gazebo
+/home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/urdf/robot.xacro
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/share/robot_description/rviz/config.rviz
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info/top_level.txt
 /home/enryu/Desktop/Path-Following-Robot/install/robot_description/lib/python3.10/site-packages/robot_description-0.0.0-py3.10.egg-info/zip-safe
