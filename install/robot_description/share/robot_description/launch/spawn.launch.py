@@ -51,6 +51,26 @@ def generate_launch_description():
         output="screen",
     )
 
+    # ROS-Gazebo Bridge
+    ign_bridge=Node(
+        package="ros_gz_bridge",
+        executable="parameter_bridge",
+        name="ign_bridge",
+        arguments=[
+            "/clock" + "@rosgraph_msgs/msg/Clock" + "[gz.msgs.Clock",
+            "/cmd_vel" + "@geometry_msgs/msg/Twist" + "@gz.msgs.Twist",
+            "/tf" + "@tf2_msgs/msg/TFMessage" + "[gz.msgs.Pose_V",
+            "/odom" + "@nav_msgs/msg/Odometry" + "[gz.msgs.Odometry",
+            "/laser/scan" + "@sensor/msgs/LaserScan" + "[gz.msgs.LaserScan",
+            "/imu" + "@sensor_msgs/msg/Imu" + "[gz.msgs.IMU",
+        ],
+        remappings=[
+
+        ],
+        output="screen",
+    )
+
+
     # Create and Return the Launch Description Object #
     return LaunchDescription(
         [
@@ -62,5 +82,6 @@ def generate_launch_description():
             declare_spawn_y,
             declare_spawn_z,
             gz_spawn_entity,
+            ign_bridge,
         ]
     )
