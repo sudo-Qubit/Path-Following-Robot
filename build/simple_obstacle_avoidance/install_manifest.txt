@@ -1,0 +1,17 @@
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/launch/obstacle_avoidance.launch.py
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/lib/simple_obstacle_avoidance/obstacle_avoidance_node
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/ament_index/resource_index/package_run_dependencies/simple_obstacle_avoidance
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/ament_index/resource_index/parent_prefix_path/simple_obstacle_avoidance
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/environment/ament_prefix_path.sh
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/environment/ament_prefix_path.dsv
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/environment/path.sh
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/environment/path.dsv
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/local_setup.bash
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/local_setup.sh
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/local_setup.zsh
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/local_setup.dsv
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/package.dsv
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/ament_index/resource_index/packages/simple_obstacle_avoidance
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/cmake/simple_obstacle_avoidanceConfig.cmake
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/cmake/simple_obstacle_avoidanceConfig-version.cmake
+/home/enryu/Desktop/Path-Following-Robot/install/simple_obstacle_avoidance/share/simple_obstacle_avoidance/package.xml

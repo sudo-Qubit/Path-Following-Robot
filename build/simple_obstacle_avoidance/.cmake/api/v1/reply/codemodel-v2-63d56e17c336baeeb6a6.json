@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9d84ebbadedc589ccb9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "simple_obstacle_avoidance",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_avoidance_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_avoidance_node-11cf8058f483e8e1b155.json",
+					"name" : "obstacle_avoidance_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_obstacle_avoidance_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_obstacle_avoidance_uninstall-09941e6c1815a96c6808.json",
+					"name" : "simple_obstacle_avoidance_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0649c91ef3a4117ad0ec.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/enryu/Desktop/Path-Following-Robot/build/simple_obstacle_avoidance",
+		"source" : "/home/enryu/Desktop/Path-Following-Robot/src/simple_obstacle_avoidance"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

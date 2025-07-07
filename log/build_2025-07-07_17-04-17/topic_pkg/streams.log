@@ -1,0 +1,69 @@
+[0.253s] Invoking command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake /home/enryu/Desktop/Path-Following-Robot/src/topic_pkg -DCMAKE_INSTALL_PREFIX=/home/enryu/Desktop/Path-Following-Robot/install/topic_pkg
+[0.300s] -- The C compiler identification is GNU 11.4.0
+[0.352s] -- The CXX compiler identification is GNU 11.4.0
+[0.359s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.429s] -- Detecting C compile features
+[0.429s] -- Detecting C compile features - done
+[0.432s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.524s] -- Detecting CXX compile features
+[0.524s] -- Detecting CXX compile features - done
+[0.526s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.670s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.760s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.798s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.803s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.810s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.836s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.886s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.888s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.964s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.991s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.032s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.039s] -- Looking for pthread.h
+[1.105s] -- Looking for pthread.h - found
+[1.106s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.174s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.175s] -- Found Threads: TRUE  
+[1.223s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.321s] -- Configuring done
+[1.333s] -- Generating done
+[1.338s] -- Build files have been written to: /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg
+[1.347s] Invoked command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake /home/enryu/Desktop/Path-Following-Robot/src/topic_pkg -DCMAKE_INSTALL_PREFIX=/home/enryu/Desktop/Path-Following-Robot/install/topic_pkg
+[1.348s] Invoking command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake --build /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg -- -j12 -l12
+[1.392s] [ 50%] [32mBuilding CXX object CMakeFiles/sub_odom_node.dir/src/sub_odom.cpp.o[0m
+[1.392s] [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_node.dir/src/move_robot.cpp.o[0m
+[5.452s] [ 75%] [32m[1mLinking CXX executable move_robot_node[0m
+[5.632s] [ 75%] Built target move_robot_node
+[9.104s] [100%] [32m[1mLinking CXX executable sub_odom_node[0m
+[9.462s] [100%] Built target sub_odom_node
+[9.473s] Invoked command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake --build /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg -- -j12 -l12
+[9.475s] Invoking command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake --install /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg
+[9.481s] -- Install configuration: ""
+[9.481s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/lib/topic_pkg/move_robot_node
+[9.482s] -- Set runtime path of "/home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/lib/topic_pkg/move_robot_node" to ""
+[9.482s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/lib/topic_pkg/sub_odom_node
+[9.485s] -- Set runtime path of "/home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/lib/topic_pkg/sub_odom_node" to ""
+[9.485s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/launch
+[9.485s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/launch/sub_odom.launch.py
+[9.485s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/launch/move_robot.launch.py
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/ament_index/resource_index/package_run_dependencies/topic_pkg
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/ament_index/resource_index/parent_prefix_path/topic_pkg
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.sh
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/environment/ament_prefix_path.dsv
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/environment/path.sh
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/environment/path.dsv
+[9.486s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/local_setup.bash
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/local_setup.sh
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/local_setup.zsh
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/local_setup.dsv
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/package.dsv
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/ament_index/resource_index/packages/topic_pkg
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig.cmake
+[9.487s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/cmake/topic_pkgConfig-version.cmake
+[9.488s] -- Installing: /home/enryu/Desktop/Path-Following-Robot/install/topic_pkg/share/topic_pkg/package.xml
+[9.490s] Invoked command in '/home/enryu/Desktop/Path-Following-Robot/build/topic_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/enryu/Desktop/Path-Following-Robot/install/robot_description:/opt/ros/humble /usr/bin/cmake --install /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg
