@@ -1,4 +1,6 @@
 [console_scripts]
 display_odom = robot_description.odom_readings:main
 display_scan = robot_description.lidar_distance:main
+robot_motion_sim = robot_description.robot_motion_sim:main
+test_laser_publisher = robot_description.test_laser_publisher:main
 

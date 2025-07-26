@@ -1,1 +1,4 @@
 .vscode/
+./executor_pkg/
+./topic_pkg/
+./custom_interfaces/

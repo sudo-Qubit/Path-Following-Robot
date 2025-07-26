@@ -15,6 +15,7 @@ setup(
         (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')),
         (os.path.join('share', package_name, 'urdf'), glob('urdf/*.*')),
         (os.path.join('share', package_name, 'rviz'), glob('rviz/*.rviz')),
+        (os.path.join('share', package_name, 'worlds'), glob('worlds/*.sdf')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -27,6 +28,8 @@ setup(
         'console_scripts': [
             'display_scan = robot_description.lidar_distance:main',
             'display_odom = robot_description.odom_readings:main',
+            'robot_motion_sim = robot_description.robot_motion_sim:main',
+            'test_laser_publisher = robot_description.test_laser_publisher:main',
         ],
     },
 )

@@ -51,6 +51,22 @@ def generate_launch_description():
         output="screen",
     )
 
+    # # So that the robot can move in RViz2
+    # motion_sim_node = Node(
+    #     package="robot_description",
+    #     executable="robot_motion_sim",
+    #     name="robot_motion_sim",
+    #     output="screen",
+    #     emulate_tty=True,
+    # )
+
+    # test_laser_publisher_node = Node(
+    #     package="robot_description",
+    #     executable="test_laser_publisher",
+    #     name="test_laser_publisher",
+    #     output="screen",
+    #     emulate_tty=True,
+    # )
 
     # Create an Return the Launch Description Object #
     return LaunchDescription(
@@ -58,5 +74,7 @@ def generate_launch_description():
             robot_state_publisher_node,
             rviz_node,
             joint_state_publisher_node,
+            # motion_sim_node,
+            # test_laser_publisher_node,
         ]
     )

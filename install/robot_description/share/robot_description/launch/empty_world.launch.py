@@ -6,7 +6,7 @@ from launch.substitutions import (PathJoinSubstitution, LaunchConfiguration)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import SetParameter
 
-# ROS2 Launch System will look for this function definition #
+# # ROS2 Launch System will look for this function definition #
 def generate_launch_description():
 
     # Get Package Description and Directory #
@@ -26,7 +26,12 @@ def generate_launch_description():
         os.environ["IGN_GAZEBO_RESOURCE_PATH"] = (':'.join(gazebo_resource_paths))
 
     # Load Empty World SDF from Gazebo Sim Package #
-    world_file = "empty.sdf"
+    # world_file = "empty.sdf" # Using default empty_world provided by gazebo
+    world_file = PathJoinSubstitution([
+        get_package_share_directory(package_description),
+        "worlds",
+        "custom_world.sdf"
+    ])
     world_config = LaunchConfiguration("world")
     declare_world_arg = DeclareLaunchArgument("world",
                                               default_value=["-r ", world_file],
