@@ -206,5 +206,21 @@
                 </geometry> 
             </collision>
         </link>
+
+        <!-- RGB Camera -->
+        <joint name="joint_camera_optical_rgb" type="fixed">
+            <origin rpy="-1.570796 0 -1.570796" xyz="0 0 0"/>
+            <parent link="link_laser_scan"/>
+            <child link="link_camera_optical_rgb"/>
+        </joint>
+        <link name="link_camera_optical_rgb"/>
+
+        <!-- Depth Camera -->
+        <joint name="joint_camera_optical_depth" type="fixed">
+            <origin rpy="-1.570796 0 -1.570796" xyz="0 0 0"/>
+            <parent link="link_laser_scan"/>
+            <child link="link_camera_optical_depth"/>
+        </joint>
+        <link name="link_camera_optical_depth"/>
     </robot>
 </xacro:root>

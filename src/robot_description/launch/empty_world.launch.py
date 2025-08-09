@@ -26,7 +26,6 @@ def generate_launch_description():
         os.environ["IGN_GAZEBO_RESOURCE_PATH"] = (':'.join(gazebo_resource_paths))
 
     # Load Empty World SDF from Gazebo Sim Package #
-    # world_file = "empty.sdf" # Using default empty_world provided by gazebo
     world_file = PathJoinSubstitution([
         get_package_share_directory(package_description),
         "worlds",

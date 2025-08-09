@@ -223,16 +223,16 @@
 	"dependencies" : 
 	[
 		{
+			"backtrace" : 9,
+			"id" : "custom_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		},
+		{
 			"backtrace" : 10,
 			"id" : "custom_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 10,
 			"id" : "custom_interfaces__py::@aab5c72cba252fd92ed9"
-		},
-		{
-			"backtrace" : 9,
-			"id" : "custom_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "custom_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",

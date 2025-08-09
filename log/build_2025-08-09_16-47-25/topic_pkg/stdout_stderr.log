@@ -32,8 +32,8 @@
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/enryu/Desktop/Path-Following-Robot/build/topic_pkg
-[ 25%] [32mBuilding CXX object CMakeFiles/sub_odom_node.dir/src/sub_odom.cpp.o[0m
 [ 50%] [32mBuilding CXX object CMakeFiles/move_robot_node.dir/src/move_robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sub_odom_node.dir/src/sub_odom.cpp.o[0m
 [ 75%] [32m[1mLinking CXX executable move_robot_node[0m
 [ 75%] Built target move_robot_node
 [100%] [32m[1mLinking CXX executable sub_odom_node[0m

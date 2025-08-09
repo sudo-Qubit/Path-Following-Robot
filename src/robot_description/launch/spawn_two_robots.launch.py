@@ -64,7 +64,9 @@ def generate_robot_group(robot_name, x, y, z):
                 ['/', robot_name, '/laser/scan@sensor_msgs/msg/LaserScan@gz.msgs.LaserScan'],
                 ['/', robot_name, '/imu@sensor_msgs/msg/Imu@gz.msgs.IMU'],
                 ['/', robot_name, '/tf@tf2_msgs/msg/TFMessage@gz.msgs.Pose_V'],
-                # ['/', robot_name, '/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image'],
+                ['/', robot_name, '/camera/image_raw@sensor_msgs/msg/Image@gz.msgs.Image'],
+                ['/', robot_name, '/camera/depth/points@sensor_msgs/msg/PointCloud2@gz.msgs.PointCloudPacked'],
+                ['/', robot_name, '/camera/depth@sensor_msgs/msg/Image@gz.msgs.Image'],
             ]
         ),
     ])
@@ -72,24 +74,15 @@ def generate_robot_group(robot_name, x, y, z):
 
 def generate_launch_description():
     robot1_name = LaunchConfiguration('robot1_name')
-    robot2_name = LaunchConfiguration('robot2_name')
-    # robot3_name = LaunchConfiguration('robot3_name')
-    # robot4_name = LaunchConfiguration('robot4_name')
-    # robot5_name = LaunchConfiguration('robot5_name')
+    # robot2_name = LaunchConfiguration('robot2_name')
 
     return LaunchDescription([
         DeclareLaunchArgument('robot1_name', default_value='robot1'),
-        DeclareLaunchArgument('robot2_name', default_value='robot2'),
-        # DeclareLaunchArgument('robot3_name', default_value='robot3'),
-        # DeclareLaunchArgument('robot4_name', default_value='robot4'),
-        # DeclareLaunchArgument('robot5_name', default_value='robot5'),
+        # DeclareLaunchArgument('robot2_name', default_value='robot2'),
 
 
         generate_robot_group(robot1_name, 0.0, 0.0, 0.5),
-        generate_robot_group(robot2_name, 0.0, -2.0, 0.5),
-        # generate_robot_group(robot3_name, 0.0, -4.0, 0.5),
-        # generate_robot_group(robot4_name, 0.0, 2.0, 0.5),
-        # generate_robot_group(robot5_name, 0.0, 4.0, 0.5),
+        # generate_robot_group(robot2_name, 0.0, -2.0, 0.5),
 
         Node(
             package='ros_gz_bridge',
